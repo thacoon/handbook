@@ -139,6 +139,22 @@ Enabling and disabling AdBlock Plus for specific elements or Web sites
 
 You can see the elements identified by AdBlock Plus by clicking on the ABP icon AdBlock Plus icon in your browser (usually next to the search bar) and selecting "Open blockable items". A window at the bottom of your browser will let you enable or disable each element on a case-by-case basis. Alternatively, you can disable AdBlock Plus for a specific domain or page by clicking on the ABP icon and ticking the option "Disable on [domain name]" or "Disable on this page only".
 
+uBlock Origin
+-------------
+uBlock Origin [(https://github.com/gorhill/uBlock)](https://github.com/gorhill/uBlock) is mainly used for blocking advertisment on websites. But it is not just an adblocker, it is a wide-spectrum blocker. With default configurations it blocks ads, trackers and malware sites. It blocks ads through its support of the Adblock Plus filter syntax. The default filter lists are EasyList, EasyPrivacy, Peter Lowe’s ad/tracking/malware servers, various lists of malware sites, and uBlock Origin's own filter lists.
+
+The user interface looks like this:
+
+![uBlock UI](ff_uBlockOrigin-UI.png)
+
+By clicking the large power button you can turn off uBlock for the current website. Below the power button you can see the number of network request blocked on the current page. Additionally, you can see how many requests have been blocked since you installed it. The percentage value tells you how many requests were blocked from all requests made. The domains connected section tells you how many connections to distinct networks are made. The higher the number, the higher you are exposing yourself privacy-wise. The four symbols at the bottom allow you to toggle different settings for the current website.
+
+Compared to Adblock Plus or browsers without a blocker, uBlock has a lower memory footprint.
+![uBlock Origin memory footprint](ff_uBlockOriginMemoryFootprint.png)
+
+
+__BEWARE! uBlock Origin is COMPLETELY UNRELATED to the web site ublock.org . The original website of the creators is: [https://github.com/gorhill/uBlock](https://github.com/gorhill/uBlock)__
+
 Other extensions that can improve your security
 -----------------------------------------------
 
