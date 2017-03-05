@@ -21,4 +21,4 @@ The benefits of using a VPN compared to other services like Tor is that the data
 
 But be aware that because you are connecting to the VPN server and authenticate yourself the VPN server knows who you are and which sites you are visiting. So when you do not trust the VPN provider you do not gain any anonymity. Because of this providers that do not log any connections should be used.
 
-Usually universities offer a VPN services so if you are enrolled you probably can use the VPN service of your universiyt for free. Your university website should have much more information about how to use there VPN service.
+Usually universities offer a VPN services so if you are enrolled you probably can use the VPN service of your university for free. Your university website should have much more information about how to use there VPN service.

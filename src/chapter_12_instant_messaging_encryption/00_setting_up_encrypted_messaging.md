@@ -1,16 +1,28 @@
 Setting up Encrypted Instant Messaging
 ======================================
 
-Android - Installing Gibberbot
-------------------------------
+Android - Conversations
+-----------------------
+[https://github.com/siacs/Conversations](https://github.com/siacs/Conversations)
 
-[https://guardianproject.info/apps/gibber/](https://guardianproject.info/apps/gibber/)
+Conversations is an open source Android XMPP/Jabber client and you can encrypt your chats with OMEMO, OTR or OpenPGP. Conversations relies on the XMPP protocol and does not require a Google Account or Google Cloud Messaging (GCM). You can get it from Google Play store or F-Droid.
 
-Gibberbot is a secure chat client capable of end-to-end encryption. It works with Google, Facebook, any Jabber or XMPP server. Gibberbot uses the Off-The-Record encryption standard (OTR) to enable true verifiable end-to-end encrypted communications.
+You can securly chat with other app that uses the XMPP Protocol and uses one of the three encryptions supported by Conversations.
 
-You can install Gibberbot through the Google Play store or from another trusted source.
+Android - Installing Zom (previously known as ChatSecure and Gibberbot)
+-----------------------------------------------------------------------
+[https://github.com/zom/Zom-Android](https://github.com/zom/Zom-Android)
 
-You can securely chat with other programs with OTR support such as Adium, Pidgin on the desktop, Gibberbot on Android or ChatSecure on iOS.
+Zom Android is a secure messaging app that uses open standards like XMPP/Jabber and OTR encryption. Accordingly, it uses end-to-end encrypted and a decentralized approach. Zom does not require a Google Account or Google Cloud Messaging (GCM). You can install Zom from the official website by downloading the apk file ([https://zom.im/](https://zom.im/)), there is also a link to Google Play store and iOS Appstore.
+
+You can securly chat with other apps like Conversations.
+
+Android/iOS - Signal
+--------------------
+
+[https://whispersystems.org](https://whispersystems.org)
+
+Signal is another open-source secure messaging app that uses end-to-end encryption. It relies on the Signal Protocol which is also used by closed-source apps like WhatsApp. The Signal protocol is designed for encrypting instant messaging. Unlike OTR not both users have to be online at the same time. But Signal cannot be directly used without Google Cloud Messaging. Although Signal is open source and rely on a secure and tested protocol every Signal account is tied to a phone number. This means by using Signal you are still exposing more metadata than necessary that can be analyzed. Analyzing your metadata can be used to gain knowledge about personal information. There is a scientific paper about "Evaluating the privacy properties of telephone metadata" at [http://www.pnas.org/content/113/20/5536.full](http://www.pnas.org/content/113/20/5536.full).
 
 iOS - Installing ChatSecure
 ---------------------------
@@ -50,7 +62,7 @@ Installing Adium is similar to installing most Mac OS X applications.
  3. Drag the Adium application to your Applications folder.
  4. "Eject" the Adium disk image, which has an icon of a drive
  5. The Adium disk image will still be present in your download folder (probably on your desktop). You can drag this file to the trash, as it is no longer needed.
- 6. To load Adium, locate it in the Applications folder and double click. 
+ 6. To load Adium, locate it in the Applications folder and double click.
 
 You can securely chat with other programs with OTR support such as Adium, Pidgin on the desktop, Gibberbot on Android or ChatSecure on iOS.
 
