@@ -8,7 +8,7 @@ As discussed in the Chapter **Basic Tips**, whether you use webmail or an email 
 
 A TLS/SSL connection in the browser, when using webmail, will appear with `https` in the URL instead of the standard `http`, like so:
 
-`https://gigglemail.com`
+`https://startpage.com`
 
 If your webmail host does not provide a TLS/SSL service then you should consider discontinuing use of that account; even if your emails themselves are not especially private or important, your account can very easily be hacked by "sniffing" your password! If it is not enabled already be sure to turn it on in your account options. At the time of writing, Google's Gmail and Hotmail / Microsoft Live both automatically switch your browser to using a secure connection.
 
