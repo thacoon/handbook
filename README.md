@@ -1,3 +1,7 @@
+# Moved to gitlab.com
+
+https://gitlab.com/thacoon/handbook
+
 # The CryptoParty Handbook
 
 https://www.cryptoparty.in/learn/handbook
